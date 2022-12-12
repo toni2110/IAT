@@ -329,9 +329,9 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			//attribute1, and attribute2 will be replaced with the name of attribute1 and attribute2.
 			//categoryA is the name of the category that is found to be associated with attribute1,
 			//and categoryB is the name of the category that is found to be associated with attribute2.
-			fb_strong_Att1WithCatA_Att2WithCatB : 'Dina svar antyder att du har en stark automatisk association mellan attribute1 och categoryA.',
-			fb_moderate_Att1WithCatA_Att2WithCatB : 'Dina svar antyder att du har en medelstark automatisk association mellan attribute1 och categoryA.',
-			fb_slight_Att1WithCatA_Att2WithCatB : 'Dina svar antyder att du har en svag automatisk association mellan attribute1 och categoryA.',
+			fb_strong_Att1WithCatA_Att2WithCatB : 'Dina svar antyder att du har en stark automatisk association mellan attribute1 och categoryA och mellan attribute2 och categoryB.',
+			fb_moderate_Att1WithCatA_Att2WithCatB : 'Dina svar antyder att du har en medelstark automatisk association mellan attribute1 och categoryA och mellan attribute2 och categoryB.',
+			fb_slight_Att1WithCatA_Att2WithCatB : 'Dina svar antyder att du har en svag automatisk association mellan attribute1 och categoryA och mellan attribute2 och categoryB.',
 			fb_equal_CatAvsCatB : 'Dina svar antyder att du inte har några automatiska associationer mellan attribute1 och categoryA eller attribute2 och categoryB.',
 
 			//Error messages in the feedback
@@ -1348,7 +1348,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
                 {
 					inherit : 'Default',
                     media : {word : (isTouch ? piCurrent.debriefingTextBottomTouch:piCurrent.debriefingTextBottom)},
-                    location:{left:2,top:55,right:2}
+                    location:{left:2,top:65,right:2}
                 }
              
                 
