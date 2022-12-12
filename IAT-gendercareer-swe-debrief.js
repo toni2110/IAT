@@ -1,7 +1,12 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/toni2110/IAT/quiat10-swe-debrief.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/toni2110/IAT/quiat10-swe.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 
 	return iatExtension({
+		
+		/*showDebriefing is true witch mean that the user will see his feeadback at the end of the test.
+		If you don't want the feedback to be shown to the user change this value to be false, the score of the test will be save at both cases
+		*/
+		showDebriefing:true,
 
 		category1 : {
 			name : 'Karriär', //Will appear in the data.
