@@ -53,9 +53,9 @@ var posWords = API.shuffle([
 		},	
 	attribute1 :
 		{
-			name : 'Bad',
+			name : 'Dåligt',
 			title : {
-				media : {word : 'Bad'},
+				media : {word : 'Dåligt'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -67,16 +67,16 @@ var posWords = API.shuffle([
 				{word: negWords[4]},
 				{word: negWords[5]},
 				{word: negWords[6]},
-				{word: negWords[7]}
+				{word: posWords[7]}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 		},
 		attribute2 :
 		{
-			name : 'Good',
+			name : 'Bra',
 			title : {
-				media : {word : 'Good'},
+				media : {word : 'Bra'},
 				css : {color:'#0000FF','font-size':'1.8em'},
 				height : 4 //Used to position the "Or" in the combined block.
 			},
@@ -87,8 +87,7 @@ var posWords = API.shuffle([
 				{word: posWords[3]},
 				{word: posWords[4]},
 				{word: posWords[5]},
-				{word: posWords[6]},
-				{word: posWords[7]}
+				{word: posWords[6]}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
