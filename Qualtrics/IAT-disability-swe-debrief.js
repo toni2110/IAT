@@ -6,9 +6,9 @@ var posWords = API.shuffle([
             'Sårad', 'Smärta', 'Ondskefull', 'Död', 'Misär', 'Mord']);
 	return iatExtension({
 		category1 : {
-			name : 'Funktionshindrad', //Will appear in the data.
+			name : 'Funktionsnedsatt', //Will appear in the data.
 			title : {
-				media : {word : 'Funktionshindrad'}, //Name of the category presented in the task.
+				media : {word : 'Funktionsnedsatt'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -22,9 +22,9 @@ var posWords = API.shuffle([
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Ej Funktionshindrad', //Will appear in the data.
+			name : 'Ej Funktionsnedsatt', //Will appear in the data.
 			title : {
-				media : {word : 'Ej Funktionshindrad'}, //Name of the category presented in the task.
+				media : {word : 'Ej Funktionsnedsatt'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
