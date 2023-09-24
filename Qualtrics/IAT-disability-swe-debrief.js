@@ -22,9 +22,9 @@ var posWords = API.shuffle([
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Ej Funktionsnedsatt', //Will appear in the data.
+			name : 'Ej funktionsnedsatt', //Will appear in the data.
 			title : {
-				media : {word : 'Ej Funktionsnedsatt'}, //Name of the category presented in the task.
+				media : {word : 'Ej funktionsnedsatt'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
